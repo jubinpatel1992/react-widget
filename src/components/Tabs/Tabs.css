@@ -1,0 +1,32 @@
+.tab {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.tab button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+}
+  
+.tab button.active {
+    border-bottom: 3px solid #8142FF;
+}
+
+.tabcontent-wrapper {
+    overflow-y: scroll;
+    min-height: 8rem;
+    max-height: 15.5rem;
+}
+
+
+.tabcontent {
+    display: none;
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    min-height: 10rem;
+    background: #ffffff;
+}

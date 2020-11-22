@@ -1,0 +1,43 @@
+.productlistwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.productlist {
+    flex: 0 0 50%;
+}
+
+.productimg-wrap {
+    display: inline-block;
+    position: relative;    
+}
+
+.productlist img {
+    width: 95%;
+}
+
+.heartimg {
+    position: absolute;
+    cursor: pointer;
+    top: 2%;
+    right: 0;
+    left: 78%;
+    width: 1.5rem !important;
+}
+
+.productlist p {
+    text-align: left;
+}
+
+.productlist .productTitle {
+    margin-left: 0.25rem;
+    font-weight: 600;
+}
+
+.productlist .productText {
+    margin-left: 0.25rem;
+}

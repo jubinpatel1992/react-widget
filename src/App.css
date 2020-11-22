@@ -1,0 +1,11 @@
+.widget-wrapper {
+    top: auto !important;
+    left: 2rem !important;
+    bottom: 3rem !important;
+    right: auto !important;
+    position: fixed !important;
+    padding-top: 15px;
+    margin-bottom: 0;
+    margin-right: 0.25rem;
+    z-index: 100001;
+}
